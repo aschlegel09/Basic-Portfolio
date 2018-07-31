@@ -1,0 +1,116 @@
+#bg-color {
+    background-color: #eeeeee;
+}
+
+#head-div {
+    background-color: white;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-bottom: 3px solid #cccccc;
+}
+
+.name {
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 250px;
+    margin-left: 200px;
+    padding: 14px 14px;
+    height: 34px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+li a {
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+}
+
+li a:hover {
+    background-color: teal;
+    color: white;
+}
+
+.active {
+    background-color: white;
+} 
+
+.inactive {
+    background: teal;
+}
+
+.navbar {
+    width: 450px;
+    height: 45px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    float: right;
+    margin-right: 250px;
+    background-color: white;
+    list-style-type: none;
+}
+
+.hnav {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    display: inline;
+    padding: 20px 20px 20px 20px;
+    font-size: 12px;
+}
+
+.full-width {
+    top: 0;
+    position: static;
+    height: 100px;
+    width: 100vw;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: -50px;
+    padding-left: 260px;
+    background-color: lightgray;
+} 
+
+.container {
+    top: 0;
+    position: absolute;
+    height: 100px;
+    width: 960px;
+    padding-bottom: 10px;
+    padding-left: 260px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+
+
+#body-div {
+    width: 960px;
+    overflow: hidden;
+    margin: 0 auto;
+    top: 0;
+    border-bottom: 3px solid lightslategray;
+    background-color: white;
+    position: static;
+}
+
+#footer-div {
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    background-color: black;
+    width: 100vw;
+    left: 0;
+}
+
+.fl-rt {
+    float: right;
+}
+
+.fl-lt {
+    float: left;
+}
